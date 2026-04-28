@@ -15,7 +15,7 @@ Predicting student academic performance based on gaming habits and study pattern
 - **r2: 0.9227237278348802**
 - **mae: 4.734954633752081**
 - **mse: 35.94089808221223**
-#### Checking on overfitting
+- #### Checking on overfitting
 - `reg.score(X_train, y_train)`: **0.9902128871554915**
 - `reg.score(X_test, y_test)`: **0.9227237278348802**
 
@@ -23,7 +23,7 @@ Predicting student academic performance based on gaming habits and study pattern
 - **r2: 0.9286484072487101**
 - **mae: 4.571118427286819**
 - **mse: 33.18535238860987**
-#### Checking on overfitting
+- #### Checking on overfitting
 - `xgb.score(X_train, y_train)`: **0.9454885920266652**
 - `xgb.score(X_test, y_test))`: **0.9286484072487101**
 
