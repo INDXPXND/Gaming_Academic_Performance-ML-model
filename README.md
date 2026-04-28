@@ -32,10 +32,12 @@ Both models show strong performance with minimal overfitting. Gradient Boosting 
 
 ## Feature Importance
 
-- **For RandomForestRegressor:**
+- ### For RandomForestRegressor:
+  
 ![feature importance](images/feature_importance_reg.png)
 
-- **For GradientBoostingRegressor:**
+- ### For GradientBoostingRegressor:
+  
 ![feature importance](images/feature_importance_xgb.png)
 
 `study_hours` and `gaming_hours` together account for **~90% of feature importance**, which reflects the synthetic nature of the dataset. In real-world data, this dominance would likely be less extreme.
@@ -77,7 +79,6 @@ matplotlib
 ## What I Learned
 
 - How to detect and handle **skewed target distributions**
-- Why `sample_weight='balanced'` breaks regression (designed for classification)
 - Difference between **evaluation metrics** (R², MAE) and **evaluation strategy** (cross-validation)
 - How to properly fill missing values for **numeric vs dummy columns** separately
 - Importance of **critical analysis** of model predictions against real-world logic
